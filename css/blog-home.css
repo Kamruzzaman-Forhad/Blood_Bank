@@ -1,0 +1,92 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+section {
+	padding:100px;
+}
+@media(max-width:576px){
+	section {
+		padding:10px;
+	}
+}
+
+ .search_button{
+    border: none;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+   /* border-radius: 30px;*/
+    border: 1px solid #CFCFCF;
+    background: #ea8787;
+    color: #FFF;
+    position: relative;
+  }
+
+  .search_button:hover{
+  background: #f12f2f;
+    color: #FFF;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#showcase {
+	position: relative;
+    background-size: cover;
+    background-image: url('../img/blood-donation.jpg');
+    min-height: 370px;
+	margin-top:60px;
+  
+  }
+  #showcase .primary-overlay{
+   background: rgba(10,12,12,0.7);
+    position: absolute;
+    min-height: 370px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+   
+ .container_margin{
+	 margin-top:8rem;
+ } 
+ 
+ #about{
+background-color: #f7f6f6;
+ }
+ #about .primary-overlay{
+   background: rgba(10,12,12,0.7);
+    position: absolute;
+    min-height: 370px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+ }
+ .remove_down_arrow{
+	position: absolute;
+
+	height: 18px;
+
+	width: 16px;
+
+	margin-left: 619px;
+
+	margin-top: 42px;
+
+	background: #fff;
+ }
+  #contact{
+	  background-color:#f7f1f1a6
+  }
+  
